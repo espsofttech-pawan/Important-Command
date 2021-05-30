@@ -39,6 +39,14 @@ https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04/
 Filezilla:
 https://tecadmin.net/install-filezilla-in-ubuntu-and-linuxmint/
 
+Anydesk:
+wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
+echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list
+sudo apt update
+sudo apt install anydesk
+anydesk
+
+
 Composer:
 1. curl -sS https://getcomposer.org/installer | php
 2. sudo mv composer.phar /usr/local/bin/composer
